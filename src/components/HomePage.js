@@ -15,7 +15,7 @@ function HomePage() {
             {selectedArticle ? (
                 <ArticleDetail link={selectedArticle} />
             ) : (
-                <RssToJson onArticleClick={handleArticleClick} />
+                <RssToJson onArticleClick={handleArticleClick}/>
             )}
         </div>
     );
