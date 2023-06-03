@@ -1,12 +1,21 @@
-import logo from './logo.svg';
+import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'bootstrap-css-only/css/bootstrap.min.css';
+import 'mdbreact/dist/css/mdb.css';
 import './App.css';
-import RssToJson from "./Container/RssToJson";
-import ReadLink from "./Container/ReadLink";
+import HomePage from "./Container/HomePage";
+
+
 
 function App() {
   return (
- // <RssToJson></RssToJson>
-      <ReadLink></ReadLink>
+      <div className={"App"}>
+          <div className={"container"}>
+              <HomePage></HomePage>
+          </div>
+        {/*<RssToJson></RssToJson>*/}
+
+      </div>
+
   );
 }
 
